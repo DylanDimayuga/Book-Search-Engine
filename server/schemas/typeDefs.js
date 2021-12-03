@@ -10,7 +10,6 @@ const typeDefs = gql`
   }
 
   type Book {
-    _id: ID!
     bookId: String
     authors: [String]
     description: String
@@ -20,12 +19,12 @@ const typeDefs = gql`
   }
 
   input savedBookInput {
+    bookId: String
+    authors: [String]
     description: String
     title: String
-    bookId: String
     image: String
     link: String
-    authors: [String]
   }
 
   type Auth {

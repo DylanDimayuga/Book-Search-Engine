@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from "react";
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 import Auth from '../utils/auth';
 import { removeBookId, saveBookIds } from '../utils/localStorage';
@@ -30,7 +30,7 @@ const SavedBooks = () => {
       }
       removeBookId(bookId);
     } catch (err) {
-      console.error(err);
+      console.error(error);
     }
   };
 

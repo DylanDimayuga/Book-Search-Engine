@@ -12,6 +12,8 @@
   
   ## Installation
   Follow the link below to the deployed application.
+
+  https://polar-fortress-53863.herokuapp.com/
   
   ## Usage
   Start by creating an account or logging in, search up a book to get book details, save the book to your book library, and choose to delete that book if you no longer want it in your library.
